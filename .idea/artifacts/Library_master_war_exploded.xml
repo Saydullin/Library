@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Library-master:war exploded">
+    <output-path>$PROJECT_DIR$/target/WT_bookShop</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Library-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Library" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:11.0.14" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.toolchain:jetty-jakarta-servlet-api:5.0.2" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:11.0.14" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:11.0.14" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:11.0.14" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.5" />
+          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:5.0.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.6.0" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.31.0" />
+          <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:12.4.2.jre11" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/WT_bookShop/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Library-master/web/Web" />
+    </root>
+  </artifact>
+</component>
